@@ -4,23 +4,25 @@
 
 span {
 	border: 1px solid black;
-	padding-left: 8px;
-	padding-right: 8px;	
+	padding-left: 64px;
+	padding-right: 64px;	
 	position: relative;
 	top: -20px;
 	right: -6px;		
+	font-size: 20px;
 }
 
 span#label-apple {
-	background-color:#ffe6e6;
+	background-color:rgb(202, 132, 134);
 }
 
 span#label-microsoft {
-	background-color:#ffebcc;
+	background-color:rgb(177, 48, 52);
+	color:white;
 }
 
 span#label-google {
-	background-color:#ffccff;
+	background-color:rgb(222, 199, 135);
 }
 
 p.content {
@@ -49,13 +51,9 @@ h1 {
 	text-align: center;
 }
 
-
-
 .row {
 	width: 100%;
 }
-
-
 
 /* Small Devices */
 @media (max-width: 767px) {
