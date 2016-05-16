@@ -5,18 +5,16 @@ body {
 	font-family: 'Oxygen', sans-serif;
 }
 
+.row {
+	background-color: gray;
+	margin-top: 15px;
+}
+
 /* Header */
 #header-nav {
 	background-color: #f6b319;
 	border-radius: 0;
 	border: 0;
-}
-
-#logo-img {
-	background: url('../images/logo-150x150.png') no-repeat;
-	width: 150px;
-	height: 150px;
-	margin: 10px 15px 10px 0;
 }
 
 .navbar-brand {
@@ -277,33 +275,23 @@ div#call-btn a span{
 
 /* Large Devices */
 @media (min-width: 1200px) {
-	.jumbotron {
-		background: url('../images/jumbotron-1200.jpeg') no-repeat;
-		height: 675px;
+	#nav-list {
+		visibility: hidden;
 	}
 }
 
 /* Medium Devices */
 @media (min-width: 992px) and (max-width: 1199px){
-	#logo-img {
-		background: url('../images/logo-medium-100x100.png') no-repeat;
-		width: 100px;
-		height: 100px;
-		margin: 5px 5px 5px 0px;
-	}
-
-	.container .jumbotron {
-		background: url('../images/jumbotron-992.jpeg') no-repeat;
-		height: 558px;
+	#nav-list {
+		visibility: hidden;
 	}	
 }
 
 /* Small Devices */
 @media (min-width: 768px) and (max-width: 991px) {
-	.container .jumbotron {
-		background: url('../images/jumbotron-768.jpeg') no-repeat;
-		height: 432px;
-	}		
+	#nav-list {
+		visibility: hidden;
+	}	
 }
 
 /* Extra Small Devices */
