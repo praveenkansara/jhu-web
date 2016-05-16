@@ -6,10 +6,8 @@ body {
 }
 
 .row {
-	background-color: gray;
 	margin-top: 15px;
-	margin-right: 10px;	
-	margin-left: 10px;		
+	background-color: gray;
 }
 
 /* Header */
@@ -108,7 +106,7 @@ body {
 	line-height: 2;
 }
 
-#hours >span, #address > span {
+#hours > span, #address > span {
 	font-size: 1.3em;
 }
 
