@@ -8,6 +8,8 @@ body {
 .row {
 	background-color: gray;
 	margin-top: 15px;
+	margin-right: 10px;	
+	margin-left: 10px;		
 }
 
 /* Header */
@@ -296,6 +298,12 @@ div#call-btn a span{
 
 /* Extra Small Devices */
 @media (max-width: 767px) {
+
+	.row {
+		margin-left: 10px;
+		margin-right: 10px;		
+	}
+
 	.navbar-brand { /* Header */
 		padding-top: 10px;
 		height: 80px;
@@ -320,27 +328,6 @@ div#call-btn a span{
 		font-size: 1em;
 		margin-right: 5px;
 	}
-
-	#call-btn > a {
-		font-size: 1.5em;
-		display: block;
-		margin:0 20px;
-		padding: 10px;
-		border: 2px solid #fff;
-		background-color: #f6b319;
-		color: #951c49;
-	}	
-
-	/*Home Page*/
-	.container .jumbotron {
-		margin-top: 30px;
-		padding: 0px;
-	}
-
-	#menu-tile, #specials-tile{
-		width: 360px;
-		margin:0 auto 15px;
-	}			
 
 	/* Single Category Page */	
 
